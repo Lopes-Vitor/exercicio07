@@ -1,0 +1,31 @@
+<p style="margin-top: 30px;">Calcular media</p>
+
+<div class="row">
+    <div class="col-md-3">
+        <label class="form-label">AC1</label>
+        <input style="width: 100px;" [(ngModel)]="ac1" type="number" class="form-control">
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">AC2</label>
+        <input style="width: 100px;" [(ngModel)]="ac2" type="number" class="form-control">
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">AG</label>
+        <input style="width: 100px;" [(ngModel)]="ag" type="number" class="form-control">
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">AF</label>
+        <input style="width: 100px;" [(ngModel)]="af" type="number" class="form-control">
+    </div>
+    <div class="col-md-3">
+        <button class="btn btn-primary" style="margin-top: 30px;" (click)="calcular()">Calcular</button>
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Média Final</label>
+        <input style="width: 100px;" [(ngModel)]="resultado" type="number" class="form-control">
+    </div>
+    <div class="col-md-3">
+        <label class="form-label">Situação</label>
+        <input style="width: 100px;" [(ngModel)]="situacao" type="text" class="form-control">
+    </div>
+</div>

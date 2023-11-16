@@ -1,0 +1,31 @@
+/* Adicione este estilo no arquivo styles.css ou styles.scss */
+
+/* Estilo para o título "Calculadora" e "Calcular média" */
+p {
+    margin-top: 20px;
+    font-size: 1.5em; /* Tamanho da fonte ajustável conforme necessário */
+}
+
+/* Estilo para a área de entrada e botão */
+.row {
+    margin-top: 10px; /* Espaçamento superior */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilo para as caixas de entrada e rótulos */
+.col-md-3 {
+    margin-bottom: 10px; /* Espaçamento inferior entre os campos */
+}
+
+/* Estilo para o botão Calcular */
+.btn-primary {
+    margin-top: 20px;
+    width: 100%; /* Ocupa toda a largura do contêiner */
+}
+
+/* Estilo para os campos de resultado e situação */
+.col-md-3:nth-last-child(-n + 2) {
+    margin-top: 10px;
+}
